@@ -8,5 +8,9 @@
         System.out.println(this.name + " is a type of Bird and it is Flying ");
     }
 
-}
+     @Override
+     public void move() {
+         System.out.println("Flapping wings.....");
+     }
+ }
 

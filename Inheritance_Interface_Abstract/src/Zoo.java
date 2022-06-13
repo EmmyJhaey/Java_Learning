@@ -10,5 +10,13 @@ public class Zoo {
         //Primate Instance
         Animal Ape = new Primate("Thomas", "black", 30, 12);
         Ape.speak();
+
+        System.out.println("TESTING METHOD AFTER THIS POINT =========================");
+
+        moveAnimal(Ape);
+    }
+
+    public static void moveAnimal(Animal animal){
+        animal.move();
     }
 }
